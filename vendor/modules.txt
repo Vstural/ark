@@ -1,0 +1,2 @@
+# github.com/Vstural/socksgo v0.0.0-20190923144204-ff886ccb9a14
+github.com/Vstural/socksgo
