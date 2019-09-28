@@ -14,14 +14,16 @@ func main() {
 		panic(err)
 	}
 
-	// todo: config conn handler
-
+	// run example code with server
 	client, err := client.NewClient(
 		protocol.NewRawRemoteHandler(
 			protocol.RawRemoteHandlerOption{
 				ServerAddr: "127.0.0.1:5001",
 			}))
+
+	// run example code in local mode
 	// client, err := client.NewClient(protocol.NewRawLocalHandler())
+
 	if err != nil {
 		panic(err)
 	}
