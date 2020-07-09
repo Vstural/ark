@@ -30,4 +30,6 @@ jobs:
             dep ensure
         fi
     - name: Test
-      run: go test -v .
+      run: 
+        ls 
+        go test -v .
